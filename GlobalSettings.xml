@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Environment>
+	<!-- General Settings -->
+	<Variable>
+		<Name>ProjectName</Name>
+		<Value>Trackwise Regression Suite</Value>
+	</Variable>
+	<Variable>
+		<Name>DataReferenceIdentifier</Name>
+		<Value>#</Value>
+	</Variable>
+	<Variable>
+		<Name>DefaultDataSheet</Name>
+		<Value>General_Data</Value>
+	</Variable>
+	<!-- Execution Settings -->
+	<Variable>
+		<Name>RunConfiguration</Name>
+		<Value>Regression</Value>
+	</Variable>
+	<Variable>
+		<Name>OnError</Name>
+		<Value>NextIteration</Value>
+	</Variable>
+	<!-- Report Settings -->
+	
+	<Variable>
+		<Name>TemporaryReportScreenShotFolder</Name>
+		<Value>ScreenShots</Value>
+	</Variable>
+	<Variable>
+		<Name>IncludeTestDataInReport</Name>
+		<Value>True</Value>
+	</Variable>
+	<Variable>
+		<Name>TakeScreenshotFailedStep</Name>
+		<Value>True</Value>
+	</Variable>
+	<Variable>
+		<Name>TakeScreenshotPassedStep</Name>
+		<Value>True</Value>
+	</Variable>
+	<Variable>
+		<Name>ReportsTheme</Name>
+		<Value>Classic</Value>
+	</Variable>
+	<Variable>
+		<Name>HtmlReport</Name>
+		<Value>True</Value>
+	</Variable>
+	<Variable>
+		<Name>ExcelReport</Name>
+		<Value>True</Value>
+	</Variable>
+	<!-- LogLevel ranges between 0 to 5, with 0 being minimal reporting and 5 being highly detailed reporting -->
+	<Variable>
+		<Name>LogLevel</Name>
+		<Value>4</Value>
+	</Variable>
+	<!-- User-defined Settings -->
+	<Variable>
+		<Name>ApplicationPath</Name>
+		<Value>https://trackwisedev.otsuka-us.com/TWDEV/</Value>
+	</Variable>
+</Environment>
